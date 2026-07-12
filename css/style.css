@@ -452,3 +452,15 @@ font-size:18px;
     box-shadow:0 0 15px rgba(214,180,93,.35);
 
 }
+   .social-links a i{
+
+    color:white;
+
+}
+
+
+.social-links a:hover i{
+
+    color:#d6b45d;
+
+}
