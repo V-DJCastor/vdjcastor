@@ -464,3 +464,19 @@ font-size:18px;
     color:#d6b45d;
 
 }
+.social-links a,
+.social-links a:visited,
+.social-links a i,
+.social-links a:visited i {
+
+    color:white !important;
+
+}
+
+
+.social-links a:hover,
+.social-links a:hover i {
+
+    color:#d6b45d !important;
+
+}
