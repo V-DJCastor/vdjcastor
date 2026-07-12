@@ -161,6 +161,10 @@ header{
 
 .hero-content{
 
+    position:relative;
+
+    z-index:2;
+
     max-width:900px;
 
     padding:20px;
@@ -168,39 +172,36 @@ header{
 }
 
 
+.hero-content h1{
 
-.hero h1{
-
-    font-family:'Orbitron',sans-serif;
-
-    font-size:88px;
+    font-size:clamp(3rem,8vw,6rem);
 
     letter-spacing:8px;
 
-    color:#f2d37b;
+    margin-bottom:20px;
 
-    text-shadow:
+    font-weight:800;
 
-    0 0 15px rgba(242,211,123,.45),
+    text-transform:uppercase;
 
-    0 0 45px rgba(242,211,123,.25);
+    text-shadow:0 0 25px rgba(255,255,255,.35);
 
 }
-
 
 
 .tagline{
 
-    margin-top:25px;
+    font-size:1.3rem;
 
-    font-size:23px;
+    line-height:1.6;
 
-    line-height:1.8;
+    max-width:700px;
 
-    color:#dddddd;
+    margin:0 auto 35px;
+
+    color:#e0e0e0;
 
 }
-
 
 
 /* ===========================
@@ -211,29 +212,34 @@ header{
 
     display:inline-block;
 
-    margin-top:45px;
+    padding:15px 35px;
 
-    padding:18px 42px;
+    border-radius:50px;
 
-    border:2px solid #d6b45d;
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.4);
 
     color:white;
 
     text-decoration:none;
 
-    border-radius:40px;
+    font-weight:600;
 
-    transition:.35s;
+    letter-spacing:1px;
+
+    backdrop-filter:blur(10px);
+
+    transition:.3s ease;
 
 }
 
 
-
 .btn:hover{
 
-    background:#d6b45d;
+    transform:translateY(-3px);
 
-    color:black;
+    background:rgba(255,255,255,.25);
 
 }
 
