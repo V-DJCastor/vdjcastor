@@ -412,19 +412,23 @@ font-size:18px;
 
 .social-links a{
 
-    display:inline-block;
+    display:inline-flex;
 
-    padding:12px 28px;
+    align-items:center;
 
-    border-radius:50px;
+    justify-content:center;
+
+    width:55px;
+
+    height:55px;
+
+    border-radius:50%;
 
     color:white;
 
     text-decoration:none;
 
-    font-weight:600;
-
-    letter-spacing:1px;
+    font-size:24px;
 
     background:rgba(255,255,255,.12);
 
@@ -447,5 +451,4 @@ font-size:18px;
 
     box-shadow:0 0 15px rgba(214,180,93,.35);
 
-}
 }
