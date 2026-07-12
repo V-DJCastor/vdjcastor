@@ -1,1 +1,366 @@
+/* ===========================
+   GOOGLE FONT
+=========================== */
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+
+
+/* ===========================
+   RESET
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+
+body{
+
+    background:#060606;
+
+    color:white;
+
+    font-family:'Inter',sans-serif;
+
+}
+
+
+
+/* ===========================
+   NAVIGATION
+=========================== */
+
+header{
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    background:rgba(0,0,0,.45);
+
+    backdrop-filter:blur(12px);
+
+}
+
+
+
+.navbar{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:22px 40px;
+
+}
+
+
+
+.logo{
+
+    font-family:'Orbitron',sans-serif;
+
+    color:#d6b45d;
+
+    font-size:30px;
+
+    letter-spacing:4px;
+
+    font-weight:700;
+
+    text-shadow:
+    0 0 12px rgba(214,180,93,.35);
+
+}
+
+
+
+.menu{
+
+    list-style:none;
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+
+
+.menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-weight:500;
+
+}
+
+
+
+.menu a:hover{
+
+    color:#d6b45d;
+
+}
+
+
+
+/* ===========================
+   HERO
+=========================== */
+
+.hero{
+
+    height:100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.72)),
+    url("../images/background.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+}
+
+
+
+.hero-content{
+
+    max-width:900px;
+
+    padding:20px;
+
+}
+
+
+
+.hero h1{
+
+    font-family:'Orbitron',sans-serif;
+
+    font-size:88px;
+
+    letter-spacing:8px;
+
+    color:#f2d37b;
+
+    text-shadow:
+
+    0 0 15px rgba(242,211,123,.45),
+
+    0 0 45px rgba(242,211,123,.25);
+
+}
+
+
+
+.tagline{
+
+    margin-top:25px;
+
+    font-size:23px;
+
+    line-height:1.8;
+
+    color:#dddddd;
+
+}
+
+
+
+/* ===========================
+   BUTTON
+=========================== */
+
+.btn{
+
+    display:inline-block;
+
+    margin-top:45px;
+
+    padding:18px 42px;
+
+    border:2px solid #d6b45d;
+
+    color:white;
+
+    text-decoration:none;
+
+    border-radius:40px;
+
+    transition:.35s;
+
+}
+
+
+
+.btn:hover{
+
+    background:#d6b45d;
+
+    color:black;
+
+}
+
+
+
+/* ===========================
+   CONTENT
+=========================== */
+
+section{
+
+    padding:110px 30px;
+
+}
+
+
+
+.container{
+
+    max-width:1100px;
+
+    margin:auto;
+
+}
+
+
+
+h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    color:#d6b45d;
+
+    font-size:42px;
+
+    margin-bottom:35px;
+
+}
+
+
+
+p{
+
+    line-height:1.9;
+
+    font-size:18px;
+
+    color:#d2d2d2;
+
+}
+
+
+
+/* ===========================
+   CARD
+=========================== */
+
+.card{
+
+    margin-top:40px;
+
+    background:#111111;
+
+    border:1px solid rgba(214,180,93,.35);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 0 30px rgba(214,180,93,.18);
+
+}
+
+
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+    text-align:center;
+
+    padding:45px;
+
+    color:#999;
+
+    border-top:1px solid #222;
+
+}
+
+
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:900px){
+
+.menu{
+
+display:none;
+
+}
+
+.hero h1{
+
+font-size:52px;
+
+letter-spacing:3px;
+
+}
+
+.tagline{
+
+font-size:18px;
+
+}
+
+}
