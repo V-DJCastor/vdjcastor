@@ -480,3 +480,49 @@ font-size:18px;
     color:#d6b45d !important;
 
 }
+   /* ===========================
+   RELEASE CARDS
+=========================== */
+
+.release-card{
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    margin-top:35px;
+
+    text-align:center;
+
+}
+
+
+.release-card img{
+
+    width:220px;
+
+    max-width:100%;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+}
+
+
+.release-card h3{
+
+    margin-bottom:10px;
+
+}
+
+
+.release-card p{
+
+    margin-bottom:25px;
+
+}
