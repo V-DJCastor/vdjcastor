@@ -480,7 +480,7 @@ font-size:18px;
     color:#d6b45d !important;
 
 }
-   /* ===========================
+/* ===========================
    RELEASE CARDS
 =========================== */
 
@@ -524,5 +524,18 @@ font-size:18px;
 .release-card p{
 
     margin-bottom:25px;
+
+}
+
+
+.release-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+    margin-top:40px;
 
 }
