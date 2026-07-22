@@ -486,6 +486,18 @@ letter-spacing:3px;
    RELEASE CARDS
 =========================== */
 
+.release-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:40px;
+
+    margin-top:50px;
+
+}
+
 .release-card{
 
     background:rgba(255,255,255,.08);
@@ -496,32 +508,47 @@ letter-spacing:3px;
 
     padding:30px;
 
-    margin-top:35px;
-
     text-align:center;
+
+    transition:.35s ease;
 
 }
 
+.release-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 30px rgba(214,180,93,.20);
+
+}
 
 .release-card img{
 
-    width:220px;
+    width:100%;
 
-    max-width:100%;
+    max-width:260px;
 
-    border-radius:15px;
+    border-radius:16px;
 
-    margin-bottom:20px;
+    margin-bottom:22px;
+
+    transition:.35s ease;
 
 }
 
+.release-card:hover img{
+
+    transform:scale(1.03);
+
+}
 
 .release-card h3{
 
-    margin-bottom:10px;
+    margin-bottom:12px;
+
+    font-size:28px;
 
 }
-
 
 .release-card p{
 
@@ -529,15 +556,22 @@ letter-spacing:3px;
 
 }
 
+.release-buttons{
 
-.release-grid{
+    display:flex;
 
-    display:grid;
+    justify-content:center;
 
-    grid-template-columns:1fr 1fr;
+    gap:15px;
 
-    gap:35px;
+    flex-wrap:wrap;
 
-    margin-top:40px;
+}
+
+.release-buttons .btn{
+
+    padding:12px 24px;
+
+    font-size:15px;
 
 }
