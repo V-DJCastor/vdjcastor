@@ -593,3 +593,15 @@ letter-spacing:3px;
     transform:scale(1.04);
 
 }
+
+.mix-subtitle{
+
+    color:#d6b45d;
+
+    font-weight:600;
+
+    font-size:18px;
+
+    margin:15px 0;
+
+}
