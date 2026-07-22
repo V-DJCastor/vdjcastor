@@ -631,3 +631,15 @@ letter-spacing:3px;
     letter-spacing:.5px;
 
 }
+
+#about p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    font-size:19px;
+
+    line-height:1.9;
+
+}
