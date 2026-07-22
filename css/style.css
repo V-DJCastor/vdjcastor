@@ -655,3 +655,29 @@ letter-spacing:3px;
     font-size:18px;
 
 }
+
+.language{
+
+    margin-left:20px;
+
+    font-size:14px;
+
+    letter-spacing:1px;
+
+}
+
+.language a{
+
+    color:#d6b45d;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+}
+
+.language a:hover{
+
+    color:white;
+
+}
