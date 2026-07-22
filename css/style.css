@@ -207,7 +207,9 @@ header{
 
     text-transform:uppercase;
 
-    text-shadow:0 0 25px rgba(255,255,255,.35);
+    color:#d6b45d;
+
+    text-shadow:0 0 25px rgba(214,180,93,.35);
 
 }
 
