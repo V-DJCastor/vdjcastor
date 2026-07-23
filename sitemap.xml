@@ -7,4 +7,14 @@
         <priority>1.0</priority>
     </url>
 
+    <url>
+        <loc>https://v-djcastor.github.io/vdjcastor/nl.html</loc>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://v-djcastor.github.io/vdjcastor/fr.html</loc>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
