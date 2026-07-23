@@ -668,17 +668,19 @@ letter-spacing:3px;
 
 .language a{
 
-    color:#d6b45d;
+    color:#bbbbbb;
 
     text-decoration:none;
 
-    font-weight:600;
+    font-weight:500;
+
+    transition:.3s ease;
 
 }
 
 .language a:hover{
 
-    color:white;
+    color:#d6b45d;
 
 }
 
