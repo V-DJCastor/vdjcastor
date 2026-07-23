@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vdjcastor.github.io/vdjcastor/sitemap.xml
+Sitemap: https://v-djcastor.github.io/vdjcastor/sitemap.xml
