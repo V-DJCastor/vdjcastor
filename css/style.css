@@ -681,3 +681,15 @@ letter-spacing:3px;
     color:white;
 
 }
+
+.active-language{
+
+    color:#d6b45d !important;
+
+    font-weight:700;
+
+    border-bottom:2px solid #d6b45d;
+
+    padding-bottom:3px;
+
+}
