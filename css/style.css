@@ -765,4 +765,20 @@ letter-spacing:3px;
 .yearmix-card h3 {
     margin-bottom: 15px;
 }
+
+   /* ==========================
+   Yearmix Collection title
+========================== */
+
+#mixes h3 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#mixes > .container > p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+}
 }
