@@ -524,18 +524,12 @@ letter-spacing:3px;
 
 }
 
-.release-card img{
-
+.release-card img {
     width:100%;
-
     max-width:320px;
-
     border-radius:16px;
-
     margin-bottom:22px;
-
-    transition:.35s ease;
-
+    transition:transform .35s ease;
 }
 
 .release-card:hover img{
@@ -581,12 +575,6 @@ letter-spacing:3px;
 .release-card{
 
     overflow:hidden;
-
-}
-
-.release-card img{
-
-    transition:transform .35s ease;
 
 }
 
@@ -732,6 +720,8 @@ letter-spacing:3px;
         max-width: 300px;
     }
 
+}
+    
 /* ==========================
    Yearmix Collection
 ========================== */
