@@ -720,6 +720,18 @@ letter-spacing:3px;
         max-width: 300px;
     }
 
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
 }
     
 /* ==========================
