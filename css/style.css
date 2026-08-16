@@ -374,25 +374,21 @@ footer{
 
 @media(max-width:900px){
 
-.menu{
+    .menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    }
 
-display:none;
+    .hero h1{
+        font-size:52px;
+        letter-spacing:3px;
+    }
 
-}
-
-.hero h1{
-
-font-size:52px;
-
-letter-spacing:3px;
-
-}
-
-.tagline{
-
-    font-size:18px;
-
-}
+    .tagline{
+        font-size:18px;
+    }
 
 }
 /* ===========================
