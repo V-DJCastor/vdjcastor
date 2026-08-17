@@ -788,7 +788,8 @@ footer{
 .press-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 40px;
+    column-gap: 40px;
+    row-gap: 60px;
     margin-top: 50px;
 }
 
